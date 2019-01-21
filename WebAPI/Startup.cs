@@ -37,6 +37,16 @@ namespace WebAPI
 
             services.AddDbContext<TaskDetailContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DevelopmentConnection")));
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials()
+                    .WithOrigins("http://localhost:4200"));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,6 +56,7 @@ namespace WebAPI
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseCors("CorsPolicy");
 
             app.UseMvc();
         }

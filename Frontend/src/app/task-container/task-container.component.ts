@@ -1,3 +1,4 @@
+import { TaskDetailService } from './../shared/task-detail.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TaskContainerComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service: TaskDetailService) { }
 
   ngOnInit() {
+    this.service.refreshList();
   }
 
 }
