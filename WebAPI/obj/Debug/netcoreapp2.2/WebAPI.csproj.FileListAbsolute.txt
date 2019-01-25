@@ -12,3 +12,17 @@ C:\Users\Harry\Documents\ProjectManager\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.Ra
 C:\Users\Harry\Documents\ProjectManager\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.pdb
 C:\Users\Harry\Documents\ProjectManager\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.dll
 C:\Users\Harry\Documents\ProjectManager\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.pdb
+C:\Users\Harry\Documents\Project Manager\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.deps.json
+C:\Users\Harry\Documents\Project Manager\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.json
+C:\Users\Harry\Documents\Project Manager\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.dev.json
+C:\Users\Harry\Documents\Project Manager\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.dll
+C:\Users\Harry\Documents\Project Manager\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.pdb
+C:\Users\Harry\Documents\Project Manager\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csprojAssemblyReference.cache
+C:\Users\Harry\Documents\Project Manager\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\Harry\Documents\Project Manager\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cache
+C:\Users\Harry\Documents\Project Manager\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cs
+C:\Users\Harry\Documents\Project Manager\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfoInputs.cache
+C:\Users\Harry\Documents\Project Manager\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfo.cs
+C:\Users\Harry\Documents\Project Manager\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Harry\Documents\Project Manager\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.dll
+C:\Users\Harry\Documents\Project Manager\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.pdb
