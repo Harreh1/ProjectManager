@@ -1,31 +1,37 @@
 <div class="container">
   <div class="row">
     <div class="col-md-4">
-      <table class="table table-hover">
-          <h1>To Do</h1>
-          <tr *ngFor="let task of service.list">
-            <p>{{task.TaskTitle}}</p>
-          </tr>
-          <tr>Add new</tr>
-      </table>
+      <ol class="list-container">
+        <h1>To Do</h1>
+        <li *ngFor="let task of service.list">
+            <app-task-list-item
+            [taskItem]="task">
+          </app-task-list-item>
+        </li>
+        <li>Add new</li>
+      </ol>
     </div>
     <div class="col-md-4">
-      <table class="table table-hover">
-          <h1>In Progress</h1>
-          <tr *ngFor="let task of service.list">
-            <p>{{task.TaskTitle}}</p>
-          </tr>
-          <tr>Add new</tr>
-      </table>
+      <ol class="list-container">
+        <h1>In Progress</h1>
+        <li *ngFor="let task of service.list">
+            <app-task-list-item
+            [taskItem]="task">
+          </app-task-list-item>
+        </li>
+        <li>Add new</li>
+      </ol>
     </div>
     <div class="col-md-4">
-      <table class="table table-hover">
-          <h1>Done</h1> 
-          <tr *ngFor="let task of service.list">
-            <p>{{task.TaskTitle}}</p>
-          </tr>
-          <tr>Add new</tr>
-      </table>
+      <ol class="list-container">
+        <h1>Done</h1>
+        <li *ngFor="let task of service.list">
+          <app-task-list-item
+            [taskItem]="task">
+          </app-task-list-item>
+        </li>
+        <li>Add new</li>
+      </ol>
     </div>
   </div>
 </div>
