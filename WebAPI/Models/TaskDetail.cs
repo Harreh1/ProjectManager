@@ -13,6 +13,7 @@ namespace WebAPI.Models
         InProgress,
         Finished
     }
+
     public class TaskDetail
     {
         [Key]
@@ -22,6 +23,10 @@ namespace WebAPI.Models
         public string TaskTitle { get; set; }
         [Column(TypeName = "nvarchar(1000)")]
         public string TaskDescription { get; set; }
+        [Required]
+        [DataType(DataType.Date)]
+        [Column(TypeName = "Date")]
+        public DateTime DueDate { get; set; }
         [Required]
         public CategoryNames Category { get; set; }
         
