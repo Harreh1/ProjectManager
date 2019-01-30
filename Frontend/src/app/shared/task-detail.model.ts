@@ -4,6 +4,7 @@ export class TaskDetail {
     TaskTitle: string;
     TaskDescription: string;
     Category: CategoryNames;
+    DueDate: Date;
 }
 
 enum CategoryNames {

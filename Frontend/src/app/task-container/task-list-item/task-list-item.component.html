@@ -1,7 +1,16 @@
 <div class="background">
   <div class="card">
     <div class="container">
-      <p>{{taskItem.TaskTitle}}</p>
+      <div class="clearfix card-category">
+        <div class="float-left">General</div>
+        <div class="float-right">A</div>
+      </div>
+      <div class="clearfix card-text">
+          <p class="float-left">{{taskItem.TaskTitle}}</p>
+      </div>
+      <div class="clearfix">
+        <p class="float-left">Due: {{taskItem.DueDate | date:'EEE, d MMM yyyy'}}</p>
+      </div>
     </div>
   </div>
 </div>

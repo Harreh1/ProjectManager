@@ -11,9 +11,10 @@ import { Component, OnInit, Input } from '@angular/core';
 
 export class TaskListItemComponent implements OnInit {
   @Input() taskItem: TaskDetail;
-
-  constructor() { }
-
+  
+  constructor() { 
+  }
+  
   ngOnInit() {
   }
 
